@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='styles.css'>
+</head>
+<body>
+    <form>
+        <div class="container">
+        <hr>
+           <h1>Profile</h1>
+            <table name="tabela">
+                <tr>
+                    <td><label for="username"><b>Username:</b></label></td> 
+                    <td><input type="text" name="username" id="username" required></td> 
+                </tr>
+                
+                <tr>
+                    <td><label for="psw"><b>Password:</b></label></td>
+                    <td><input type="password" name="psw" id="psw" required></td>
+                </tr>
+                
+                <tr>
+                    <td><label for="firstname"><b>Firstname:</b></label></td>
+                    <td><input type="text" name="firstname" id="firstname" required></td>
+                </tr>
+                
+                <tr>
+                    <td><label for="lastname"><b>Lastname:</b></label></td>
+                    <td><input type="text" name="lastname" id="lastname" required></td>
+                </tr>        
+                <hr> 
+
+                <tr>
+                    <br><td><label for="date"><b>Date of birth:</b></label></td>
+                    <td><input type="date" name="date" id="date" required></td>
+                </tr>
+            </table>
+
+            <br><button type="submit" action="/page.html" method="put" class="registerbtn">Update</button>
+        </div>
+
+    </form>
+</body>
+</html>

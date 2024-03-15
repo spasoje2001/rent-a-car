@@ -1,0 +1,52 @@
+[
+    {
+        "id": 1,
+        "longitude": 20.382352581452906,  
+        "latitude": 44.85618257482606,
+        "address": {
+            "street" : "Sumadijska 10",
+            "city" : "Beograd",
+            "postCode" : 11000
+        }
+    },
+    {
+        "id": 2,
+        "longitude": 19.834211508134746,  
+        "latitude": 45.255766761118245,
+        "address": {
+            "street" : "Bulevar Oslobodjenja 60",
+            "city" : "Novi Sad",
+            "postCode" : 21000
+        }
+    },
+    {
+        "id": 3,
+        "longitude": 19.824257682996265,  
+        "latitude": 45.24925539180382,
+        "address": {
+            "street" : "Futoska 57",
+            "city" : "Novi Sad",
+            "postCode" : 21000
+        }
+    },
+    {
+        "id": 4, 
+        "longitude": -118.309129,  
+        "latitude": 34.079511,
+        "address": {
+            "street" : "Western Ave 20",
+            "city" : "Los Angeles",
+            "postCode" : 90000
+        }
+    },
+    {
+        "id": 5, 
+        "longitude": 20.469543891025445,  
+        "latitude": 44.81217654297601,
+        "address":{
+            "street" : "Takovska 17",
+            "city" : "Beograd",
+            "postCode" : 11000
+        }
+    }
+]

@@ -1,0 +1,463 @@
+[
+    {
+        "id": 1,
+        "name": "The best rental object",
+        "vehicles": [
+            {
+                "id": 1,
+                "brand": "Mercedes",
+                "model": "2001",
+                "price": "1000",
+                "type": "Van",
+                "rentacarId": 1,
+                "transmissionType": "Automatic",
+                "fuelType": "Petrol",
+                "consumption": "6",
+                "doors": "4",
+                "maxPersons": "4",
+                "description": "sxswx",
+                "image": "car1.jpg",
+                "status": "Available"
+            },
+            {
+                "id": 2,
+                "brand": "Audi",
+                "model": "2008",
+                "price": "2000",
+                "type": "Car",
+                "rentacarId": 1,
+                "transmissionType": "Manual",
+                "fuelType": "Petrol",
+                "consumption": "3",
+                "doors": "9",
+                "maxPersons": "8",
+                "description": "nj",
+                "image": "car6.png",
+                "status": "Available"
+            },
+            {
+                "brand": "q",
+                "model": "q",
+                "price": "-3",
+                "vehicleType": "Car",
+                "transmissionType": "Automatic",
+                "fuelType": "Petrol",
+                "consumption": "01",
+                "doors": 4,
+                "maxPersons": "3",
+                "description": "",
+                "image": "peugeot.jpg",
+                "status": "Available",
+                "rentacarId": "1",
+                "id": 7
+            }
+        ],
+        "businessHours": "10:00h-16:00h",
+        "workingStatus": "Working",
+        "location": {
+            "id": 4,
+            "longitude": -118.309129,
+            "latitude": 34.079511,
+            "address": {
+                "street": "Western Ave 20",
+                "city": "Los Angeles",
+                "postCode": 90000
+            }
+        },
+        "logo": "rentacar1.png",
+        "rating": 7,
+        "gradeNum": 7
+    },
+    {
+        "id": 2,
+        "name": "Lux rentali",
+        "vehicles": [
+            {
+                "id": 4,
+                "brand": "Porshe",
+                "model": "Panamera",
+                "price": "3000",
+                "type": "Car",
+                "rentacarId": 2,
+                "transmissionType": "Automatic",
+                "fuelType": "Petrol",
+                "consumption": "15",
+                "doors": "13",
+                "maxPersons": "12",
+                "description": "ddqdq",
+                "image": "mitsubishi.jpg",
+                "status": "Available"
+            },
+            {
+                "id": 4,
+                "brand": "Porshe",
+                "model": "Panamera",
+                "price": "3000",
+                "type": "Car",
+                "rentacarId": 2,
+                "transmissionType": "Automatic",
+                "fuelType": "Petrol",
+                "consumption": "15",
+                "doors": "4",
+                "maxPersons": "5",
+                "description": "ddqdq",
+                "image": "peugeot.jpg",
+                "status": "Available"
+            },
+            {
+                "id": 4,
+                "brand": "Audi",
+                "model": "xyx",
+                "price": "8000",
+                "type": "Car",
+                "rentacarId": 2,
+                "transmissionType": "Automatic",
+                "fuelType": "Petrol",
+                "consumption": "15",
+                "doors": "4",
+                "maxPersons": "5",
+                "description": "ddqdq",
+                "image": "audi.jpg",
+                "status": "Available"
+            }
+        ],
+        "businessHours": "12:00h-18:00h",
+        "workingStatus": "Working",
+        "location": {
+            "id": 2,
+            "longitude": 19.834211508134747,
+            "latitude": 45.255766761118245,
+            "address": {
+                "street": "Bulevar Oslobodjenja 60",
+                "city": "Novi Sad",
+                "postCode": 21000
+            }
+        },
+        "logo": "rentacar2.png",
+        "rating": 7,
+        "gradeNum": null
+    },
+    {
+        "name": "NinaMedic servis",
+        "vehicles": [],
+        "workingStatus": "Working",
+        "location": {
+            "id": 4,
+            "longitude": -118.309129,
+            "latitude": 34.079511,
+            "address": {
+                "street": "Western Ave 20",
+                "city": "Los Angeles",
+                "postCode": 90000
+            }
+        },
+        "businessHours": "18:00h-12:00h",
+        "rating": 10,
+        "gradeNum": 0,
+        "id": 4
+    },
+    {
+        "name": "Step rentals",
+        "vehicles": [],
+        "workingStatus": "Working",
+        "location": {
+            "id": 2,
+            "longitude": 19.834211508134747,
+            "latitude": 45.255766761118245,
+            "address": {
+                "street": "Bulevar Oslobodjenja 60",
+                "city": "Novi Sad",
+                "postCode": 21000
+            }
+        },
+        "businessHours": "21:45h-17:48h",
+        "rating": 10,
+        "gradeNum": 0,
+        "id": 5
+    },
+    {
+        "name": "Step rentals",
+        "vehicles": [],
+        "workingStatus": "Working",
+        "location": {
+            "id": 2,
+            "longitude": 19.834211508134747,
+            "latitude": 45.255766761118245,
+            "address": {
+                "street": "Bulevar Oslobodjenja 60",
+                "city": "Novi Sad",
+                "postCode": 21000
+            }
+        },
+        "businessHours": "21:45h-17:48h",
+        "rating": 10,
+        "gradeNum": 0,
+        "id": 6
+    },
+    {
+        "name": "janaS",
+        "vehicles": [],
+        "workingStatus": "Working",
+        "location": {
+            "id": 3,
+            "longitude": 19.824257682996265,
+            "latitude": 45.24925539180382,
+            "address": {
+                "street": "Futoska 57",
+                "city": "Novi Sad",
+                "postCode": 21000
+            }
+        },
+        "businessHours": "07:49h-17:48h",
+        "rating": 10,
+        "gradeNum": 0,
+        "id": 7
+    },
+    {
+        "name": "Maja",
+        "vehicles": [],
+        "workingStatus": "Working",
+        "location": {
+            "id": 3,
+            "longitude": 19.824257682996265,
+            "latitude": 45.24925539180382,
+            "address": {
+                "street": "Futoska 57",
+                "city": "Novi Sad",
+                "postCode": 21000
+            }
+        },
+        "businessHours": "06:06h-06:07h",
+        "rating": 10,
+        "gradeNum": 0,
+        "id": 8
+    },
+    {
+        "name": "Maja",
+        "vehicles": [],
+        "workingStatus": "Working",
+        "location": {
+            "id": 3,
+            "longitude": 19.824257682996265,
+            "latitude": 45.24925539180382,
+            "address": {
+                "street": "Futoska 57",
+                "city": "Novi Sad",
+                "postCode": 21000
+            }
+        },
+        "businessHours": "06:06h-06:07h",
+        "rating": 10,
+        "gradeNum": 0,
+        "id": 9
+    },
+    {
+        "name": "renting",
+        "vehicles": [],
+        "workingStatus": "Working",
+        "location": {
+            "id": 2,
+            "longitude": 19.834211508134747,
+            "latitude": 45.255766761118245,
+            "address": {
+                "street": "Bulevar Oslobodjenja 60",
+                "city": "Novi Sad",
+                "postCode": 21000
+            }
+        },
+        "businessHours": "18:39h-10:39h",
+        "rating": 10,
+        "gradeNum": 0,
+        "id": 10
+    },
+    {
+        "name": "pezos rents",
+        "vehicles": [],
+        "workingStatus": "Working",
+        "location": {
+            "id": 3,
+            "longitude": 19.824257682996265,
+            "latitude": 45.24925539180382,
+            "address": {
+                "street": "Futoska 57",
+                "city": "Novi Sad",
+                "postCode": 21000
+            }
+        },
+        "businessHours": "18:49h-22:49h",
+        "rating": 10,
+        "gradeNum": 0,
+        "id": 11
+    },
+    {
+        "name": "wheels",
+        "vehicles": [],
+        "workingStatus": "Working",
+        "location": {
+            "id": 5,
+            "longitude": 20.469543891025445,
+            "latitude": 44.81217654297601,
+            "address": {
+                "street": "Takovska 17",
+                "city": "Beograd",
+                "postCode": 11000
+            }
+        },
+        "businessHours": "18:54h-16:54h",
+        "rating": 10,
+        "gradeNum": 0,
+        "id": 12
+    },
+    {
+        "name": "American",
+        "vehicles": [],
+        "workingStatus": "Working",
+        "location": {
+            "id": 4,
+            "longitude": -118.309129,
+            "latitude": 34.079511,
+            "address": {
+                "street": "Western Ave 20",
+                "city": "Los Angeles",
+                "postCode": 90000
+            }
+        },
+        "businessHours": "19:58h-18:59h",
+        "rating": 10,
+        "gradeNum": 0,
+        "id": 13
+    },
+    {
+        "name": "aaa",
+        "vehicles": [],
+        "workingStatus": "Working",
+        "location": {
+            "id": 2,
+            "longitude": 19.834211508134747,
+            "latitude": 45.255766761118245,
+            "address": {
+                "street": "Bulevar Oslobodjenja 60",
+                "city": "Novi Sad",
+                "postCode": 21000
+            }
+        },
+        "businessHours": "19:04h-23:04h",
+        "rating": 10,
+        "gradeNum": 0,
+        "id": 14
+    },
+    {
+        "name": "KKK",
+        "vehicles": [],
+        "workingStatus": "Working",
+        "location": {
+            "id": 4,
+            "longitude": -118.309129,
+            "latitude": 34.079511,
+            "address": {
+                "street": "Western Ave 20",
+                "city": "Los Angeles",
+                "postCode": 90000
+            }
+        },
+        "businessHours": "21:05h-12:05h",
+        "rating": 10,
+        "gradeNum": 0,
+        "id": 15
+    },
+    {
+        "name": "NinaR",
+        "vehicles": [],
+        "workingStatus": "Working",
+        "location": {
+            "id": 3,
+            "longitude": 19.824257682996265,
+            "latitude": 45.24925539180382,
+            "address": {
+                "street": "Futoska 57",
+                "city": "Novi Sad",
+                "postCode": 21000
+            }
+        },
+        "businessHours": "19:10h-22:10h",
+        "rating": 10,
+        "gradeNum": 0,
+        "id": 16
+    },
+    {
+        "name": "medicSpale",
+        "vehicles": [],
+        "workingStatus": "Working",
+        "location": {
+            "id": 3,
+            "longitude": 19.824257682996265,
+            "latitude": 45.24925539180382,
+            "address": {
+                "street": "Futoska 57",
+                "city": "Novi Sad",
+                "postCode": 21000
+            }
+        },
+        "businessHours": "",
+        "rating": 10,
+        "gradeNum": 0,
+        "id": 17
+    },
+    {
+        "name": "jovicin rental",
+        "vehicles": [],
+        "workingStatus": "Working",
+        "location": {
+            "id": 3,
+            "longitude": 19.824257682996265,
+            "latitude": 45.24925539180382,
+            "address": {
+                "street": "Futoska 57",
+                "city": "Novi Sad",
+                "postCode": 21000
+            }
+        },
+        "businessHours": "",
+        "rating": 10,
+        "gradeNum": 0,
+        "id": 18
+    },
+    {
+        "name": "gas",
+        "vehicles": [],
+        "workingStatus": "Working",
+        "location": {
+            "id": 4,
+            "longitude": -118.309129,
+            "latitude": 34.079511,
+            "address": {
+                "street": "Western Ave 20",
+                "city": "Los Angeles",
+                "postCode": 90000
+            }
+        },
+        "businessHours": "",
+        "rating": 10,
+        "gradeNum": 0,
+        "id": 19
+    },
+    {
+        "name": "a",
+        "vehicles": [],
+        "workingStatus": "Working",
+        "location": {
+            "id": 1,
+            "longitude": 20.382352581452906,
+            "latitude": 44.85618257482606,
+            "address": {
+                "street": "Sumadijska 10",
+                "city": "Beograd",
+                "postCode": 11000
+            }
+        },
+        "businessHours": "",
+        "rating": 10,
+        "gradeNum": 0,
+        "id": 20
+    }
+]

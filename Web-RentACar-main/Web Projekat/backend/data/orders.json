@@ -1,0 +1,289 @@
+[
+    {
+        "uniqueOrderId": "zHBzCt8iGG",
+        "rentACar": 1,
+        "rentedVehicles": [
+            {
+                "id": 1,
+                "brand": "Mercedes",
+                "model": "2001",
+                "price": "1000",
+                "type": "Van",
+                "rentacarId": 1,
+                "transmissionType": "Automatic",
+                "fuelType": "Petrol",
+                "consumption": "6",
+                "doors": "4",
+                "maxPersons": "4",
+                "description": "sxswx",
+                "image": "car1.png",
+                "status": "Available"
+            },
+            {
+                "id": 2,
+                "brand": "Jeep",
+                "model": "2008",
+                "price": "2000",
+                "type": "MobileHome",
+                "rentacarId": 1,
+                "transmissionType": "Manual",
+                "fuelType": "Petrol",
+                "consumption": "3",
+                "doors": "9",
+                "maxPersons": "8",
+                "description": "nj",
+                "image": "car6.png",
+                "status": "Available"
+            }
+        ],
+        "rentalTimeStamp": "2023-09-01",
+        "leaseDuration": 14,
+        "price": 5700,
+        "customer": {
+            "id": 5,
+            "name": "Milosav",
+            "surname": "Peric"
+        },
+        "status": "Returned",
+        "isRated": true,
+        "id": 1
+    },
+    {
+        "uniqueOrderId": "adWD98pWPZ",
+        "rentACar": 2,
+        "rentedVehicles": [
+            {
+                "id": 4,
+                "brand": "Porshe",
+                "model": "Panamera",
+                "price": "3000",
+                "vehicleType": "Car",
+                "rentacarId": 2,
+                "transmissionType": "Automatic",
+                "fuelType": "Petrol",
+                "consumption": "15",
+                "doors": "13",
+                "maxPersons": "12",
+                "description": "ddqdq",
+                "image": "car3.png",
+                "status": "Available",
+                "quantity": 1
+            }
+        ],
+        "rentalTimeStamp": "2023-09-14",
+        "leaseDuration": 6,
+        "price": 2850,
+        "customer": {
+            "id": 5,
+            "name": "Milosav",
+            "surname": "Peric"
+        },
+        "status": "Canceled",
+        "isRated": false,
+        "id": 2
+    },
+    {
+        "uniqueOrderId": "g57psA4F9q",
+        "rentACar": 2,
+        "rentedVehicles": [
+            {
+                "id": 4,
+                "brand": "Porshe",
+                "model": "Panamera",
+                "price": "3000",
+                "vehicleType": "Car",
+                "rentacarId": 2,
+                "transmissionType": "Automatic",
+                "fuelType": "Petrol",
+                "consumption": "15",
+                "doors": "13",
+                "maxPersons": "12",
+                "description": "ddqdq",
+                "image": "car3.png",
+                "status": "Available",
+                "quantity": 1
+            }
+        ],
+        "rentalTimeStamp": "2023-09-08",
+        "leaseDuration": 1,
+        "price": 2850,
+        "customer": {
+            "id": 5,
+            "name": "Milosav",
+            "surname": "Peric"
+        },
+        "status": "Processing",
+        "isRated": false,
+        "id": 3
+    },
+    {
+        "uniqueOrderId": "vYXsk4BhK6",
+        "rentACar": 2,
+        "rentedVehicles": [
+            {
+                "id": 4,
+                "brand": "Porshe",
+                "model": "Panamera",
+                "price": "3000",
+                "vehicleType": "Car",
+                "rentacarId": 2,
+                "transmissionType": "Automatic",
+                "fuelType": "Petrol",
+                "consumption": "15",
+                "doors": "13",
+                "maxPersons": "12",
+                "description": "ddqdq",
+                "image": "car3.png",
+                "status": "Available",
+                "quantity": 1
+            }
+        ],
+        "rentalTimeStamp": "2023-09-10",
+        "leaseDuration": 1,
+        "price": 2850,
+        "customer": {
+            "id": 5,
+            "name": "Milosav",
+            "surname": "Peric"
+        },
+        "status": "Processing",
+        "isRated": false,
+        "id": 4
+    },
+    {
+        "uniqueOrderId": "19Lf0fRlaS",
+        "rentACar": 1,
+        "rentedVehicles": [
+            {
+                "id": 1,
+                "brand": "Mercedes",
+                "model": "2001",
+                "price": "1000",
+                "type": "Van",
+                "rentacarId": 1,
+                "transmissionType": "Automatic",
+                "fuelType": "Petrol",
+                "consumption": "6",
+                "doors": "4",
+                "maxPersons": "4",
+                "description": "sxswx",
+                "image": "car1.png",
+                "status": "Available",
+                "quantity": 1
+            }
+        ],
+        "rentalTimeStamp": "2023-09-21",
+        "leaseDuration": 5,
+        "price": 950,
+        "customer": {
+            "id": 5,
+            "name": "Milosav",
+            "surname": "Peric"
+        },
+        "status": "Processing",
+        "isRated": false,
+        "id": 5
+    },
+    {
+        "uniqueOrderId": "3JYsSpbwth",
+        "rentACar": 1,
+        "rentedVehicles": [
+            {
+                "id": 1,
+                "brand": "Mercedes",
+                "model": "2001",
+                "price": "1000",
+                "type": "Van",
+                "rentacarId": 1,
+                "transmissionType": "Automatic",
+                "fuelType": "Petrol",
+                "consumption": "6",
+                "doors": "4",
+                "maxPersons": "4",
+                "description": "sxswx",
+                "image": "car1.png",
+                "status": "Available",
+                "quantity": 3
+            }
+        ],
+        "rentalTimeStamp": "2023-09-15",
+        "leaseDuration": 1,
+        "price": 12350,
+        "customer": {
+            "id": 6,
+            "name": "Marina",
+            "surname": "Kicanovic"
+        },
+        "status": "Canceled",
+        "isRated": false,
+        "id": 6
+    },
+    {
+        "uniqueOrderId": "Z2Y0zHu2XS",
+        "rentACar": 1,
+        "rentedVehicles": [
+            {
+                "id": 1,
+                "brand": "Mercedes",
+                "model": "2001",
+                "price": "1000",
+                "type": "Van",
+                "rentacarId": 1,
+                "transmissionType": "Automatic",
+                "fuelType": "Petrol",
+                "consumption": "6",
+                "doors": "4",
+                "maxPersons": "4",
+                "description": "sxswx",
+                "image": "car1.png",
+                "status": "Available",
+                "quantity": 1
+            }
+        ],
+        "rentalTimeStamp": "2023-09-28",
+        "leaseDuration": 2,
+        "price": null,
+        "customer": {
+            "id": 6,
+            "name": "Marina",
+            "surname": "Kicanovic"
+        },
+        "status": "Canceled",
+        "isRated": false,
+        "id": 7
+    },
+    {
+        "uniqueOrderId": "qqPVzCYqiD",
+        "rentACar": 1,
+        "rentedVehicles": [
+            {
+                "id": 1,
+                "brand": "Mercedes",
+                "model": "2001",
+                "price": "1000",
+                "type": "Van",
+                "rentacarId": 1,
+                "transmissionType": "Automatic",
+                "fuelType": "Petrol",
+                "consumption": "6",
+                "doors": "4",
+                "maxPersons": "4",
+                "description": "sxswx",
+                "image": "car1.png",
+                "status": "Available",
+                "quantity": 1
+            }
+        ],
+        "rentalTimeStamp": "2023-08-29",
+        "leaseDuration": 23,
+        "price": null,
+        "customer": {
+            "id": 6,
+            "name": "Marina",
+            "surname": "Kicanovic"
+        },
+        "status": "Processing",
+        "isRated": false,
+        "id": 8
+    }
+]

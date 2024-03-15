@@ -1,0 +1,528 @@
+[
+    {
+        "username": "milosav",
+        "password": "1234",
+        "name": "Milosav",
+        "surname": "Peric",
+        "gender": "Male",
+        "birthDate": "2023-08-18",
+        "userRole": "Customer",
+        "myRentals": [
+            {
+                "id": 1,
+                "rentedVehicles": [
+                    {
+                        "id": 1
+                    },
+                    {
+                        "id": 2
+                    }
+                ],
+                "rentACar": 1,
+                "status": "Processing"
+            },
+            {
+                "id": 2,
+                "rentedVehicles": [
+                    {
+                        "id": 4
+                    }
+                ],
+                "rentACar": 2,
+                "status": "Canceled"
+            },
+            {
+                "id": 3,
+                "rentedVehicles": [
+                    {
+                        "id": 4
+                    }
+                ],
+                "rentACar": 2,
+                "status": "Processing"
+            },
+            {
+                "id": 4,
+                "rentedVehicles": [
+                    {
+                        "id": 4
+                    }
+                ],
+                "rentACar": 2,
+                "status": "Processing"
+            },
+            {
+                "id": 5,
+                "rentedVehicles": [
+                    {
+                        "id": 1
+                    }
+                ],
+                "rentACar": 1,
+                "status": "Processing"
+            }
+        ],
+        "numberOfPoints": 1022.4499999999999,
+        "customerTier": {
+            "id": 1,
+            "tierName": "Bronze",
+            "discount": 5,
+            "pointCap": 100
+        },
+        "currentBasket": null,
+        "myRentACars": null,
+        "numberOfCancelledRentals": 6,
+        "isBlocked": true,
+        "id": 5
+    },
+    {
+        "username": "marina01",
+        "password": "lozinka",
+        "name": "Marina",
+        "surname": "Kicanovic",
+        "gender": "Female",
+        "birthDate": "2023-08-08",
+        "userRole": "Customer",
+        "myRentals": [
+            {
+                "id": 6,
+                "rentedVehicles": [
+                    {
+                        "id": 1
+                    }
+                ],
+                "rentACar": 1,
+                "status": "Canceled"
+            },
+            {
+                "id": 7,
+                "rentedVehicles": [
+                    {
+                        "id": 1
+                    }
+                ],
+                "rentACar": 1,
+                "status": "Canceled"
+            },
+            {
+                "id": 8,
+                "rentedVehicles": [
+                    {
+                        "id": 1
+                    }
+                ],
+                "rentACar": 1,
+                "status": "Processing"
+            }
+        ],
+        "numberOfPoints": 0,
+        "customerTier": {},
+        "currentBasket": null,
+        "myRentACars": null,
+        "numberOfCancelledRentals": 2,
+        "isBlocked": false,
+        "id": 6
+    },
+    {
+        "username": "jovozmaj",
+        "password": "jovica123",
+        "name": "Jovan",
+        "surname": "Jovanovic",
+        "gender": "Male",
+        "birthDate": "2004-06-12",
+        "userRole": "Manager",
+        "myRentals": [],
+        "numberOfPoints": 5,
+        "customerTier": {},
+        "currentBasket": null,
+        "myRentACars": {
+            "id": 1,
+            "name": "The best rental object",
+            "vehicles": [
+                {
+                    "id": 1,
+                    "brand": "Mercedes",
+                    "model": "2001",
+                    "price": "1000",
+                    "type": "Van",
+                    "rentacarId": 1,
+                    "transmissionType": "Automatic",
+                    "fuelType": "Petrol",
+                    "consumption": "6",
+                    "doors": "4",
+                    "maxPersons": "4",
+                    "description": "sxswx",
+                    "image": "car1.png",
+                    "status": "Available"
+                },
+                {
+                    "id": 2,
+                    "brand": "Jeep",
+                    "model": "2008",
+                    "price": "2000",
+                    "type": "MobileHome",
+                    "rentacarId": 1,
+                    "transmissionType": "Manual",
+                    "fuelType": "Petrol",
+                    "consumption": "3",
+                    "doors": "9",
+                    "maxPersons": "8",
+                    "description": "nj",
+                    "image": "car6.png",
+                    "status": "Available"
+                }
+            ],
+            "businessHours": "10:00h-16:00h",
+            "workingStatus": "Working",
+            "location": {
+                "id": 4,
+                "longitude": -118.309129,
+                "latitude": 34.079511,
+                "address": {
+                    "street": "Western Ave 20",
+                    "city": "Los Angeles",
+                    "postCode": 90000
+                }
+            },
+            "logo": "rentacar1.png",
+            "rating": 7,
+            "gradeNum": 7,
+            "grade": 141582.42857142858
+        },
+        "numberOfCancelledRentals": 0,
+        "isBlocked": false,
+        "id": 7
+    },
+    {
+        "username": "milance",
+        "password": "m",
+        "name": "Milan",
+        "surname": "Milanovic",
+        "gender": "male",
+        "dateOfBirth": "2023-02-01",
+        "userRole": "Administrator",
+        "myRentals": null,
+        "myRentACars": null,
+        "basket": null,
+        "numberOfPoints": 5,
+        "customerTier": {},
+        "rejectedNum": 0,
+        "isBlocked": false,
+        "id": 8
+    },
+    {
+        "username": "ana",
+        "password": "a",
+        "name": "Ana",
+        "surname": "Anic",
+        "gender": "female",
+        "birthDate": "2003-02-01",
+        "userRole": "Manager",
+        "myRentals": null,
+        "myRentACars": {
+            "name": "kira",
+            "location": {
+                "id": 3,
+                "longitude": 19.824257682996265,
+                "latitude": 45.24925539180382,
+                "address": {
+                    "street": "Futoska 57",
+                    "city": "Novi Sad",
+                    "postCode": 21000
+                }
+            },
+            "businessHours": "18:04h-09:07h",
+            "logo": "rentacar3.png"
+        },
+        "basket": null,
+        "numberOfPoints": 5,
+        "customerTier": {},
+        "rejectedNum": 0,
+        "isBlocked": false,
+        "id": 9
+    },
+    {
+        "username": "mirkic",
+        "password": "123",
+        "name": "Mirko",
+        "surname": "Mirkovic",
+        "gender": "Male",
+        "birthDate": "2023-06-29",
+        "userRole": "Manager",
+        "myRentals": null,
+        "basket": null,
+        "numberOfPoints": 5,
+        "customerTier": {},
+        "myRentACars": {
+            "name": "s",
+            "location": "",
+            "startTime": "22:25",
+            "endTime": "22:25",
+            "logo": "car2.png"
+        },
+        "isBlocked": false,
+        "id": 10
+    },
+    {
+        "username": "roki",
+        "password": "123",
+        "name": "Radivoje",
+        "surname": "Rasic",
+        "gender": "Male",
+        "birthDate": "2023-08-16",
+        "userRole": "Manager",
+        "myRentals": null,
+        "basket": null,
+        "myRentACars": {
+            "name": "p",
+            "location": "",
+            "startTime": "22:26",
+            "endTime": "22:26",
+            "logo": "carback.png"
+        },
+        "numberOfPoints": 5,
+        "customerTier": {},
+        "isBlocked": false,
+        "id": 16
+    },
+    {
+        "username": "e",
+        "password": "e",
+        "name": "e",
+        "surname": "e",
+        "gender": "Female",
+        "birthDate": "2023-08-09",
+        "userRole": "Manager",
+        "myRentals": null,
+        "basket": null,
+        "myRentACars": {
+            "name": "p",
+            "location": {
+                "id": 1,
+                "street": "Karadjordjeva",
+                "number": 5,
+                "city": "Belgrade",
+                "country": "Serbia"
+            },
+            "startTime": "22:47",
+            "endTime": "22:47",
+            "logo": "car3.jpg"
+        },
+        "numberOfPoints": 5,
+        "customerTier": {},
+        "isBlocked": false,
+        "id": 17
+    },
+    {
+        "username": "mara",
+        "password": "mara",
+        "name": "mara",
+        "surname": "mara",
+        "gender": "Female",
+        "birthDate": "0007-07-07",
+        "userRole": "Manager",
+        "myRentals": null,
+        "basket": null,
+        "myRentACars": {
+            "name": "medicSpale",
+            "location": {
+                "id": 3,
+                "longitude": 19.824257682996265,
+                "latitude": 45.24925539180382,
+                "address": {
+                    "street": "Futoska 57",
+                    "city": "Novi Sad",
+                    "postCode": 21000
+                }
+            },
+            "businessHours": "",
+            "logo": "rentacar3.png"
+        },
+        "numberOfPoints": 5,
+        "customerTier": {},
+        "isBlocked": false,
+        "id": 20
+    },
+    {
+        "username": "ana123",
+        "password": "123",
+        "name": "Ana",
+        "surname": "Savic",
+        "gender": "Female",
+        "birthDate": "2000-09-07",
+        "userRole": "Manager",
+        "myRentals": null,
+        "basket": null,
+        "myRentACars": {
+            "name": "Step rentals",
+            "location": {
+                "id": 2,
+                "longitude": 19.834211508134747,
+                "latitude": 45.255766761118245,
+                "address": {
+                    "street": "Bulevar Oslobodjenja 60",
+                    "city": "Novi Sad",
+                    "postCode": 21000
+                }
+            },
+            "businessHours": "21:45h-17:48h",
+            "logo": "rentacar2.png"
+        },
+        "numberOfPoints": 5,
+        "customerTier": {},
+        "isBlocked": false,
+        "id": 21
+    },
+    {
+        "username": "medic",
+        "password": "123",
+        "name": "Katarina",
+        "surname": "Medic",
+        "gender": "Female",
+        "birthDate": "2001-09-05",
+        "userRole": "Manager",
+        "myRentals": null,
+        "basket": null,
+        "myRentACars": {
+            "name": "jovicin rental",
+            "location": {
+                "id": 3,
+                "longitude": 19.824257682996265,
+                "latitude": 45.24925539180382,
+                "address": {
+                    "street": "Futoska 57",
+                    "city": "Novi Sad",
+                    "postCode": 21000
+                }
+            },
+            "businessHours": "",
+            "logo": "rentacar3.png"
+        },
+        "numberOfPoints": 5,
+        "customerTier": {},
+        "isBlocked": false,
+        "id": 22
+    },
+    {
+        "username": "nk",
+        "password": "123",
+        "name": "nina",
+        "surname": "kn",
+        "gender": "Female",
+        "birthDate": "2023-09-14",
+        "userRole": "Manager",
+        "myRentals": null,
+        "basket": null,
+        "myRentACars": {
+            "name": "gas",
+            "location": {
+                "id": 4,
+                "longitude": -118.309129,
+                "latitude": 34.079511,
+                "address": {
+                    "street": "Western Ave 20",
+                    "city": "Los Angeles",
+                    "postCode": 90000
+                }
+            },
+            "businessHours": "",
+            "logo": "rentacar3.png"
+        },
+        "numberOfPoints": 5,
+        "customerTier": {},
+        "isBlocked": false,
+        "id": 23
+    },
+    {
+        "username": "Jovan",
+        "password": "123",
+        "name": "Jovan",
+        "surname": "Jokic",
+        "gender": "Male",
+        "birthDate": "2023-08-29",
+        "userRole": "Manager",
+        "myRentals": null,
+        "basket": null,
+        "myRentACars": {
+            "name": "renting",
+            "location": {
+                "id": 2,
+                "longitude": 19.834211508134747,
+                "latitude": 45.255766761118245,
+                "address": {
+                    "street": "Bulevar Oslobodjenja 60",
+                    "city": "Novi Sad",
+                    "postCode": 21000
+                }
+            },
+            "businessHours": "18:39h-10:39h",
+            "logo": "rentacar2.png"
+        },
+        "numberOfPoints": 5,
+        "customerTier": {},
+        "isBlocked": false,
+        "id": 24
+    },
+    {
+        "username": "medicmedvedic",
+        "password": "medic",
+        "name": "Medic",
+        "surname": "Medicicic",
+        "gender": "Female",
+        "birthDate": "2023-09-05",
+        "userRole": "Manager",
+        "myRentals": null,
+        "basket": null,
+        "myRentACars": {
+            "name": "Novi",
+            "location": {
+                "id": 2,
+                "longitude": 19.834211508134747,
+                "latitude": 45.255766761118245,
+                "address": {
+                    "street": "Bulevar Oslobodjenja 60",
+                    "city": "Novi Sad",
+                    "postCode": 21000
+                }
+            },
+            "businessHours": "07:29h-19:29h",
+            "logo": "rentacar3.png"
+        },
+        "numberOfPoints": 5,
+        "customerTier": {},
+        "isBlocked": true,
+        "id": 25
+    },
+    {
+        "username": "q",
+        "password": "q",
+        "name": "q",
+        "surname": "q",
+        "gender": "Female",
+        "birthDate": "0004-04-04",
+        "userRole": "Manager",
+        "myRentals": null,
+        "myRentACars": {
+            "name": "a",
+            "location": {
+                "id": 1,
+                "longitude": 20.382352581452906,
+                "latitude": 44.85618257482606,
+                "address": {
+                    "street": "Sumadijska 10",
+                    "city": "Beograd",
+                    "postCode": 11000
+                }
+            },
+            "businessHours": "",
+            "logo": "car3.jpg"
+        },
+        "basket": null,
+        "managedRental": null,
+        "customerPoints": 5,
+        "customerTier": {},
+        "numberOfCancelledRentals": 0,
+        "isBlocked": false,
+        "id": 26
+    }
+]

@@ -1,0 +1,19 @@
+[
+    {
+        "id": 1,
+        "tierName" : "Bronze",
+        "discount" : 5,
+        "pointCap" : 100
+    },
+    {
+        "id": 2,
+        "tierName" : "Silver",
+        "discount" : 10,
+        "pointCap" : 300
+    },{
+        "id": 3,
+        "tierName" : "Gold",
+        "discount" : 20,
+        "pointCap" : 500
+    }
+]
